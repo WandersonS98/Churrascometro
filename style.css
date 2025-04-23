@@ -1,16 +1,79 @@
-.container{
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 300px;
-    margin: auto;
-    background-color: aliceblue;
-    padding: 20px;
-    border-radius: 10px;
+body {
+    background-color: #fcb133;
 }
 
-input{
-    width: 100%;
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f1762a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input {
+    border-radius: 10px;
+    text-align: left;
+    width: 50%;
     display: block;
-    padding: 5px;
+    padding: 15px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    border: none;
+}
+
+button {
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    text-decoration: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #d85606;
+    color: white;
+    transform: scale(1.0);
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    margin: 5px;
+}
+
+.resultados {
+    display: none;
+    background-color: orange;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    animation: fadeIn 0.5s;
+    text-align: center;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+
+.btn-volta {
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    text-decoration: none;
+    border: none;
 }
